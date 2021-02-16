@@ -2,7 +2,7 @@ module.exports = (client, message, query, tracks) => {
 
     message.channel.send({
         embed: {
-            color: 'BLUE',
+            color: '#304FFE',
             author: { name: `Here are your search results for ${query}` },
             footer: { text: 'PLAYING BRAWL STARS' },
             timestamp: new Date(),
