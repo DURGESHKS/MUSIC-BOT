@@ -2,9 +2,9 @@ exports.run = async (client, message) => {
 
     message.channel.send({
         embed: {
-            color: 'ORANGE',
+            color: '#304FFE',
             author: { name: 'Help pannel' },
-            footer: { text: 'github.com/reconlx/music-bot' },
+            footer: { text: '❃M✯U✯S✯I✯C❃' },
             fields: [
                 { name: 'Bot', value: '`ping`' },
                 { name: 'Music', value: '`play`, `pause`, `resume`, `queue`, `clear-queue`, `shuffle`, `np`, `loop`, `volume`, `skip`, `stop`' },
